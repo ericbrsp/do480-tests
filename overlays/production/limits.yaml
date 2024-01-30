@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: app
+  namespace: mysql
+spec:
+  containers:
+  - name: app
+    resources:
+      memory: "64Mi"
+      cpu: "500m"
+
