@@ -1,7 +1,8 @@
 kind: Kustomization
 
-bases:
-  - ../../base
+resources:
+- ../../base
 
 patches:
-  - limits.yaml
+- limits.yaml
+

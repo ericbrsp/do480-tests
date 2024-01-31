@@ -1,5 +1,4 @@
 kind: Kustomization
 
 resources:
-- pod.yaml
-- service.yaml
+- deployment.yaml
