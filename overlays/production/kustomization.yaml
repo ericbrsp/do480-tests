@@ -4,6 +4,6 @@ bases:
 - ../../base
 
 patches:
-  - patch: limits.yaml
+  - path: limits.yaml
 
 
