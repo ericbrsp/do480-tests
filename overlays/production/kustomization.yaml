@@ -6,4 +6,6 @@ bases:
 patches:
   - path: limits.yaml
 
+nameSuffix: -**
+
 
