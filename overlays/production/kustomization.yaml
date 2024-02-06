@@ -1,8 +1,11 @@
 kind: Kustomization
 
-resources:
+bases:
 - ../../base
 
 patches:
 - limits.yaml
+
+
+nameSuffix: -**
 
