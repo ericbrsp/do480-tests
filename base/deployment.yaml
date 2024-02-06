@@ -15,5 +15,5 @@ spec:
     spec:
       containers:
       - name: app
-        image: registry.access.redhat.com/ubi8/nginx-120:1-137
+        image: quay.io/egoncalv/php-hello
 
